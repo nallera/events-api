@@ -1,0 +1,9 @@
+provider_x_repository:
+  http_client:
+    timeout: 500ms
+  api_domain: https://provider.code-challenge.feverup.com
+  external_calls:
+    get_current_events:
+      request_uri: /api/events
+provider_x_sqlite:
+  name: events.db
